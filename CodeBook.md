@@ -26,7 +26,7 @@ At the end the *X_tables, Y_tables* and *subject_tables* are merged via ```cbind
 ### Part2 - Extracts only the measurements on the mean and standard deviation for each measurement.
 
 Obtain all columns with *mean* or *std* words in the column names. 
-Define a vector with the columns with *mean, std* words, and the columns *563* and *564* = "Training Code" and "Traininglabel".
+Define a vector with the columns with *mean, std* words, and the columns *563* and *564* = "Traininglabel"  an "Subject"
 
 The extracted columns are assigned to a data.table, named **data**
 
