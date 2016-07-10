@@ -1,7 +1,5 @@
 run_analysis <- function(){
   
-  setwd("H:/Vicente/Estudios/Data scientist/R/Data cleaning/Project")
-  
   if (!require("stringr")){
     install.packages("stringr", dependencies=TRUE)
   }
