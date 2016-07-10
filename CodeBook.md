@@ -12,12 +12,12 @@ The y_tables are merged with *activity_labels.txt* via ```Y_test[,2] = activity_
 
  Training Code |   Traininglabel  
  --------------|-----------------
-  5            |STANDING          
+  1            |WALKING          
+  2            |          WALKING_UPSTAIRS
+  3            |          WALKING_DOWNSTAIRS
+  4            |          SITTING
   5            |          STANDING
-  5            |          STANDING
-  5            |          STANDING
-  5            |          STANDING
-  5            |          STANDING
+  6            |          LAYING
 
 The column names of X_tables is assigned```names(X)= features```
 
